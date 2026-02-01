@@ -1,3 +1,14 @@
+/**
+ * 問題:
+ *      二つのベクトルを与えられて
+ *      その内積の値を返す関数を作れ
+ *
+ * 解説:
+ *      例として書かれたものは
+ *      一つ目のベクトル、二つ目のベクトル、ベクトルの総数
+ *      という3つの引数を受け取るものだった
+ *      `double 内積 = f(double ベクトル1, double ベクトル2, int 総数)`
+ */
 #include <stdio.h>
 double inprod(double x[], double y[], int n) {
     double s; int i;
