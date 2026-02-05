@@ -15,6 +15,9 @@ def inprod(vx: list[float], vy: list[float]) -> float:
     return sum(x * y for x, y in zip(vx, vy))
 
 def main() -> None:
+    """エントリポイント
+    """
+
     # 複数の実数値をCUIより取得
     args = list(map(float, input().split()))
 
